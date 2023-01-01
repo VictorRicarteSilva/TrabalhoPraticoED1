@@ -3,6 +3,3 @@
 #include <stdbool.h>
 #include <restaurante.h>
 
-int main (){
-    
-}
