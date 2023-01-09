@@ -9,6 +9,6 @@
 ### Alunos
 
 1. Victor Ricarte Silva - 12021BSI230;
-2. .. - ..
+2. Izabela Pereira Maestri - 12021BSI239
 
 ---
