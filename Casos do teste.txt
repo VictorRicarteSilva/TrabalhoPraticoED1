@@ -245,6 +245,10 @@ Não tem pessoas na fila
 
 Opcao: 0
 
+
+
+
+
 Segundo caso de teste:
 
 Quantos chocolates estão na pilha: 8
@@ -396,6 +400,271 @@ roberto
 
 Total: 10.00
 Ganhou o chocolate: laranja
+1 - Receber Cliente 
+2 - Gerenciar fila do caixa 
+0 - Sair
+
+Opcao: 2
+Não tem pessoas na fila
+1 - Receber Cliente 
+2 - Gerenciar fila do caixa 
+0 - Sair
+
+Opcao: 0
+
+
+
+
+Terceiro caso de teste:
+
+Quantos chocolates estão na pilha: 5
+amargo
+crocante
+branco
+leite
+morango
+Quantos itens no cardapio:7
+feijoada
+25
+macarrão
+15
+galinhada
+20
+sobremesa
+5
+sorvete
+7
+refrigerante
+8
+suco
+6
+1 - Receber Cliente 
+2 - Gerenciar fila do caixa 
+0 - Sair
+
+Opcao: 1
+Nome: joão
+1 - Pedir Prato
+0 - Ir para o caixa
+
+Opcao: 1
+0 feijoada - 25.000000
+1 macarrão - 15.000000
+2 galinhada - 20.000000
+3 sobremesa - 5.000000
+4 sorvete - 7.000000
+5 refrigerante - 8.000000
+6 suco - 6.000000
+
+Nmr do Prato: 0
+1 - Pedir Prato
+0 - Ir para o caixa
+
+Opcao: 1
+0 feijoada - 25.000000
+1 macarrão - 15.000000
+2 galinhada - 20.000000
+3 sobremesa - 5.000000
+4 sorvete - 7.000000
+5 refrigerante - 8.000000
+6 suco - 6.000000
+
+Nmr do Prato: 2
+1 - Pedir Prato
+0 - Ir para o caixa
+
+Opcao: 0
+1 - Receber Cliente 
+2 - Gerenciar fila do caixa 
+0 - Sair
+
+Opcao: 1
+Nome: joana
+1 - Pedir Prato
+0 - Ir para o caixa
+
+Opcao: 1
+0 feijoada - 25.000000
+1 macarrão - 15.000000
+2 galinhada - 20.000000
+3 sobremesa - 5.000000
+4 sorvete - 7.000000
+5 refrigerante - 8.000000
+6 suco - 6.000000
+
+Nmr do Prato: 1
+1 - Pedir Prato
+0 - Ir para o caixa
+
+Opcao: 1
+0 feijoada - 25.000000
+1 macarrão - 15.000000
+2 galinhada - 20.000000
+3 sobremesa - 5.000000
+4 sorvete - 7.000000
+5 refrigerante - 8.000000
+6 suco - 6.000000
+
+Nmr do Prato: 5
+1 - Pedir Prato
+0 - Ir para o caixa
+
+Opcao: 0
+1 - Receber Cliente 
+2 - Gerenciar fila do caixa 
+0 - Sair
+
+Opcao: 2
+joão
+0 feijoada - 25.000000
+2 galinhada - 20.000000
+
+Total: 45.00
+Ganhou o chocolate: morango
+1 - Receber Cliente 
+2 - Gerenciar fila do caixa 
+0 - Sair
+
+Opcao: 1
+Nome: bia
+1 - Pedir Prato
+0 - Ir para o caixa
+
+Opcao: 1
+0 feijoada - 25.000000
+1 macarrão - 15.000000
+2 galinhada - 20.000000
+3 sobremesa - 5.000000
+4 sorvete - 7.000000
+5 refrigerante - 8.000000
+6 suco - 6.000000
+
+Nmr do Prato: 4
+1 - Pedir Prato
+0 - Ir para o caixa
+
+Opcao: 0
+1 - Receber Cliente 
+2 - Gerenciar fila do caixa 
+0 - Sair
+
+Opcao: 2
+joana
+1 macarrão - 15.000000
+5 refrigerante - 8.000000
+
+Total: 23.00
+Ganhou o chocolate: leite
+1 - Receber Cliente 
+2 - Gerenciar fila do caixa 
+0 - Sair
+
+Opcao: 2
+bia
+4 sorvete - 7.000000
+
+Total: 7.00
+Ganhou o chocolate: branco
+1 - Receber Cliente 
+2 - Gerenciar fila do caixa 
+0 - Sair
+
+Opcao: 2
+Não tem pessoas na fila
+1 - Receber Cliente 
+2 - Gerenciar fila do caixa 
+0 - Sair
+
+Opcao: 1
+Nome: lucas
+1 - Pedir Prato
+0 - Ir para o caixa
+
+Opcao: 1
+0 feijoada - 25.000000
+1 macarrão - 15.000000
+2 galinhada - 20.000000
+3 sobremesa - 5.000000
+4 sorvete - 7.000000
+5 refrigerante - 8.000000
+6 suco - 6.000000
+
+Nmr do Prato: 2
+1 - Pedir Prato
+0 - Ir para o caixa
+
+Opcao: 1
+0 feijoada - 25.000000
+1 macarrão - 15.000000
+2 galinhada - 20.000000
+3 sobremesa - 5.000000
+4 sorvete - 7.000000
+5 refrigerante - 8.000000
+6 suco - 6.000000
+
+Nmr do Prato: 5
+1 - Pedir Prato
+0 - Ir para o caixa
+
+Opcao: 1
+0 feijoada - 25.000000
+1 macarrão - 15.000000
+2 galinhada - 20.000000
+3 sobremesa - 5.000000
+4 sorvete - 7.000000
+5 refrigerante - 8.000000
+6 suco - 6.000000
+
+Nmr do Prato: 3
+1 - Pedir Prato
+0 - Ir para o caixa
+
+Opcao: 0
+1 - Receber Cliente 
+2 - Gerenciar fila do caixa 
+0 - Sair
+
+Opcao: 1
+Nome: fulano
+1 - Pedir Prato
+0 - Ir para o caixa
+
+Opcao: 1
+0 feijoada - 25.000000
+1 macarrão - 15.000000
+2 galinhada - 20.000000
+3 sobremesa - 5.000000
+4 sorvete - 7.000000
+5 refrigerante - 8.000000
+6 suco - 6.000000
+
+Nmr do Prato: 1
+1 - Pedir Prato
+0 - Ir para o caixa
+
+Opcao: 0
+1 - Receber Cliente 
+2 - Gerenciar fila do caixa 
+0 - Sair
+
+Opcao: 2
+lucas
+2 galinhada - 20.000000
+5 refrigerante - 8.000000
+3 sobremesa - 5.000000
+
+Total: 33.00
+Ganhou o chocolate: crocante
+1 - Receber Cliente 
+2 - Gerenciar fila do caixa 
+0 - Sair
+
+Opcao: 2
+fulano
+1 macarrão - 15.000000
+
+Total: 15.00
+Ganhou o chocolate: amargo
 1 - Receber Cliente 
 2 - Gerenciar fila do caixa 
 0 - Sair
