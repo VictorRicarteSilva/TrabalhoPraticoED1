@@ -12,14 +12,14 @@ lista *criaLista() {
   lista *P = malloc(sizeof(lista)); // insere na memoria uma lista
 
   if (P == NULL) { // se o ponteiro P for igual a NULL
-    return NULL;   // retorno NULL
+    return NULL; // retorno NULL
   }
   P->no = NULL; // se não crio a lista com o no cabeca apontando pra NULL
-  P->tam = 0;   // com tamanho 0
-  return P;     // retorno a lista
+  P->tam = 0; // com tamanho 0
+  return P; // retorno a lista
 }
 
-int salvarItem_Lista(lista *L, produto P) { // insere
+int salvarItem_Lista(lista *L, produto P) { // insere um item na lista
   node *Paux = malloc(sizeof(node));
   if (Paux == NULL)
     return 0;
@@ -36,7 +36,7 @@ int salvarItem_Lista(lista *L, produto P) { // insere
   return 1;
 }
 
-int buscaLista(lista *L, int n, produto *p) {
+int buscaLista(lista *L, int n, produto *p) { // busca item na lista
   node *P;
   P = L->no;
   while (P != NULL) {
@@ -54,14 +54,14 @@ int listaCheia(lista *L) {
   // Neste codigo assumimos que a lista nunca estara cheia
 }
 
-int listaVazia(lista *L) {
+int listaVazia(lista *L) { //verifica se a lista esta vazia 
   if (L->no == NULL) { // se o primeiro elemento da lista for NULL
-    return 0;          // retorno True a lista esta vazia
+    return 0; // retorno True a lista esta vazia
   } else
     return 1; // se não retorno false
 }
 
-int retiraLista(lista *L, int n) {
+int retiraLista(lista *L, int n) { //retira um elemento da lista
   node *P;
   node *Paux;
   P = L->no;
@@ -88,7 +88,7 @@ int retiraLista(lista *L, int n) {
     return 1;
 }
 
-int destroiLista(lista *L) {
+int destroiLista(lista *L) { //destroi a lista e libera espaço da memoria 
   int n=0;
   while (listaVazia(L) == 1) {
     retiraLista(L, n);
@@ -97,7 +97,7 @@ int destroiLista(lista *L) {
   free(L);
 }
 
-void imprimeLista(lista *L) {
+void imprimeLista(lista *L) { //imprime a lista 
   if (L == NULL)
     return;
   node *aux = L->no;
@@ -107,7 +107,7 @@ void imprimeLista(lista *L) {
   }
 }
 
-double somaLista(lista *L) {
+double somaLista(lista *L) { //soma os itens desejados da lista 
   if (L == NULL)
     return 0;
   node *aux = L->no;
