@@ -12,3 +12,5 @@
 2. Izabela Pereira Maestri - 12021BSI239
 
 ---
+
+Link para o video: https://web.microsoftstream.com/video/2b22ea4a-0994-4714-ae04-640b317479c1
