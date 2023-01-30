@@ -17,14 +17,14 @@ struct lista {
   node *cauda;
 };
 
-lista *criaLista();                          // aloca a Lista na mémoria
-int salvarItem_Lista(lista *L, produto P);   // insere um novo item na lista
+lista *criaLista(); // aloca a Lista na mémoria
+int salvarItem_Lista(lista *L, produto P); // insere um novo item na lista
 int buscaLista(lista *L, int n, produto *P); // busca na Lista
-int listaCheia(lista *L);                    // verifica se a lista esta cheia
-int listaVazia(lista *L);                    // verifica se a lista esta vazia
-int retiraLista(lista *L, int n);            // retira um elemento da lista
-int destroiLista(lista *L);                  // libera a lista da mémoria
-void imprimeLista(lista *L);
-double somaLista(lista *L);
+int listaCheia(lista *L); // verifica se a lista esta cheia
+int listaVazia(lista *L); // verifica se a lista esta vazia
+int retiraLista(lista *L, int n); // retira um elemento da lista
+int destroiLista(lista *L); // libera a lista da mémoria
+void imprimeLista(lista *L); // imprime toda a lista
+double somaLista(lista *L); // soma os valores da lista
 
 #endif
