@@ -1,66 +1,5 @@
-Sequencia para teste:
-5
-amargo
-leite 
-branco
-leite
-amargo
-5
-macarrão
-10
-galinhada  
-15
-feijoada
-25
-bebidas
-5
-sobremesa
-12
-1
-joão
-1
-0
-1
-1
-1
-3
-1
-4
-0
-1
-felipa
-1
-0
-1
-4
-0
-1
-catarina
-1
-4
-0
-1
-jose
-1
-2
-1
-3
-0
-1
-andre
-1
-3
-0
-2
-2
-2
-2
-2
-2
-0
+Primeiro caso de teste:
 
-
-Resposta: 
 Quantos chocolates estão na pilha: 5
 amargo
 leite 
@@ -294,6 +233,169 @@ andre
 
 Total: 5.00
 Ganhou o chocolate: amargo
+1 - Receber Cliente 
+2 - Gerenciar fila do caixa 
+0 - Sair
+
+Opcao: 2
+Não tem pessoas na fila
+1 - Receber Cliente 
+2 - Gerenciar fila do caixa 
+0 - Sair
+
+Opcao: 0
+
+Segundo caso de teste:
+
+Quantos chocolates estão na pilha: 8
+branco
+amargo
+leite
+amargo 
+limão
+laranja
+morango
+leite
+Quantos itens no cardapio:5
+galinhada
+25
+feijoada
+30
+macarrão
+15
+bebida 
+5
+sobremesa
+10
+1 - Receber Cliente 
+2 - Gerenciar fila do caixa 
+0 - Sair
+
+Opcao: 1
+Nome: joão
+1 - Pedir Prato
+0 - Ir para o caixa
+
+Opcao: 1
+0 gal�inhada - 25.000000
+1 feijoada - 30.000000
+2 macarrão - 15.000000
+3 bebida - 5.000000
+4 sobremesa - 10.000000
+
+Nmr do Prato: 0
+1 - Pedir Prato
+0 - Ir para o caixa
+
+Opcao: 1
+0 gal�inhada - 25.000000
+1 feijoada - 30.000000
+2 macarrão - 15.000000
+3 bebida - 5.000000
+4 sobremesa - 10.000000
+
+Nmr do Prato: 3
+1 - Pedir Prato
+0 - Ir para o caixa
+
+Opcao: 0
+1 - Receber Cliente 
+2 - Gerenciar fila do caixa 
+0 - Sair
+
+Opcao: 1
+Nome: joana
+1 - Pedir Prato
+0 - Ir para o caixa
+
+Opcao: 1
+0 gal�inhada - 25.000000
+1 feijoada - 30.000000
+2 macarrão - 15.000000
+3 bebida - 5.000000
+4 sobremesa - 10.000000
+
+Nmr do Prato: 2
+1 - Pedir Prato
+0 - Ir para o caixa
+
+Opcao: 1
+0 gal�inhada - 25.000000
+1 feijoada - 30.000000
+2 macarrão - 15.000000
+3 bebida - 5.000000
+4 sobremesa - 10.000000
+
+Nmr do Prato: 4
+1 - Pedir Prato
+0 - Ir para o caixa
+
+Opcao: 0
+1 - Receber Cliente 
+2 - Gerenciar fila do caixa 
+0 - Sair
+
+Opcao: 2
+joaão
+0 gal�inhada - 25.000000
+3 bebida - 5.000000
+
+Total: 30.00
+Ganhou o chocolate: leite
+1 - Receber Cliente 
+2 - Gerenciar fila do caixa 
+0 - Sair
+
+Opcao: 1
+Nome: roberto
+1 - Pedir Prato
+0 - Ir para o caixa
+
+Opcao: 1
+0 gal�inhada - 25.000000
+1 feijoada - 30.000000
+2 macarrão - 15.000000
+3 bebida - 5.000000
+4 sobremesa - 10.000000
+
+Nmr do Prato: 3
+1 - Pedir Prato
+0 - Ir para o caixa
+
+Opcao: 1
+0 gal�inhada - 25.000000
+1 feijoada - 30.000000
+2 macarrão - 15.000000
+3 bebida - 5.000000
+4 sobremesa - 10.000000
+
+Nmr do Prato: 3
+1 - Pedir Prato
+0 - Ir para o caixa
+
+Opcao: 0
+1 - Receber Cliente 
+2 - Gerenciar fila do caixa 
+0 - Sair
+
+Opcao: 2
+joana
+2 macarrão - 15.000000
+4 sobremesa - 10.000000
+
+Total: 25.00
+Ganhou o chocolate: morango
+1 - Receber Cliente 
+2 - Gerenciar fila do caixa 
+0 - Sair
+
+Opcao: 2
+roberto
+3 bebida - 5.000000
+3 bebida - 5.000000
+
+Total: 10.00
+Ganhou o chocolate: laranja
 1 - Receber Cliente 
 2 - Gerenciar fila do caixa 
 0 - Sair
